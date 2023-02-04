@@ -9,43 +9,6 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": -1614742406,
-        "Kind": "Components.Component",
-        "Name": "TodoList.App",
-        "AssemblyName": "TodoList",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TodoList.App",
-          "Common.TypeNamespace": "TodoList",
-          "Common.TypeNameIdentifier": "App"
-        }
-      },
-      {
-        "HashCode": 1008682501,
-        "Kind": "Components.Component",
-        "Name": "TodoList.App",
-        "AssemblyName": "TodoList",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "TodoList.App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TodoList.App",
-          "Common.TypeNamespace": "TodoList",
-          "Common.TypeNameIdentifier": "App",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -1444209262,
         "Kind": "Components.Component",
         "Name": "TodoList.Pages.Counter",
@@ -83,39 +46,39 @@
         }
       },
       {
-        "HashCode": 1102800214,
+        "HashCode": -1397173587,
         "Kind": "Components.Component",
-        "Name": "TodoList.Pages.FetchData",
+        "Name": "TodoList.Pages.Todo",
         "AssemblyName": "TodoList",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "FetchData"
+            "TagName": "Todo"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TodoList.Pages.FetchData",
+          "Common.TypeName": "TodoList.Pages.Todo",
           "Common.TypeNamespace": "TodoList.Pages",
-          "Common.TypeNameIdentifier": "FetchData"
+          "Common.TypeNameIdentifier": "Todo"
         }
       },
       {
-        "HashCode": 1819513857,
+        "HashCode": 543658054,
         "Kind": "Components.Component",
-        "Name": "TodoList.Pages.FetchData",
+        "Name": "TodoList.Pages.Todo",
         "AssemblyName": "TodoList",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "TodoList.Pages.FetchData"
+            "TagName": "TodoList.Pages.Todo"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TodoList.Pages.FetchData",
+          "Common.TypeName": "TodoList.Pages.Todo",
           "Common.TypeNamespace": "TodoList.Pages",
-          "Common.TypeNameIdentifier": "FetchData",
+          "Common.TypeNameIdentifier": "Todo",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -153,6 +116,43 @@
           "Common.TypeName": "TodoList.Pages.Index",
           "Common.TypeNamespace": "TodoList.Pages",
           "Common.TypeNameIdentifier": "Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1102800214,
+        "Kind": "Components.Component",
+        "Name": "TodoList.Pages.FetchData",
+        "AssemblyName": "TodoList",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "TodoList.Pages.FetchData",
+          "Common.TypeNamespace": "TodoList.Pages",
+          "Common.TypeNameIdentifier": "FetchData"
+        }
+      },
+      {
+        "HashCode": 1819513857,
+        "Kind": "Components.Component",
+        "Name": "TodoList.Pages.FetchData",
+        "AssemblyName": "TodoList",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "TodoList.Pages.FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "TodoList.Pages.FetchData",
+          "Common.TypeNamespace": "TodoList.Pages",
+          "Common.TypeNameIdentifier": "FetchData",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -355,6 +355,43 @@
           "Common.TypeName": "TodoList.Shared.NavMenu",
           "Common.TypeNamespace": "TodoList.Shared",
           "Common.TypeNameIdentifier": "NavMenu",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1614742406,
+        "Kind": "Components.Component",
+        "Name": "TodoList.App",
+        "AssemblyName": "TodoList",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "TodoList.App",
+          "Common.TypeNamespace": "TodoList",
+          "Common.TypeNameIdentifier": "App"
+        }
+      },
+      {
+        "HashCode": 1008682501,
+        "Kind": "Components.Component",
+        "Name": "TodoList.App",
+        "AssemblyName": "TodoList",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "TodoList.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "TodoList.App",
+          "Common.TypeNamespace": "TodoList",
+          "Common.TypeNameIdentifier": "App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -15924,6 +15961,11 @@
       "FilePath": "/home/helder/H2SDIGITAL/learning/TodoList/_Imports.razor",
       "TargetPath": "_Imports.razor",
       "FileKind": "componentImport"
+    },
+    {
+      "FilePath": "/home/helder/H2SDIGITAL/learning/TodoList/Pages/Todo.razor",
+      "TargetPath": "Pages\\Todo.razor",
+      "FileKind": "component"
     },
     {
       "FilePath": "/home/helder/H2SDIGITAL/learning/TodoList/Shared/SurveyPrompt.razor",
