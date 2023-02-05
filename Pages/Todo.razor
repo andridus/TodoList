@@ -1,10 +1,12 @@
 ﻿@page "/todo"
-
+@using TodoList.State.Todos
+@inject IDispatcher dispatcher
+@inject IState<TodosState> todosState
 <PageTitle>Todo</PageTitle>
-<h1>Todo (@todos.Count(todo => !todo.IsDone))</h1>
+<h1>Todo (@todosState.Value.Todos.Count(todo => !todo.IsDone))</h1>
 
 <ul>
-  @foreach (var todo in todos)
+  @foreach (var todo in todosState.Value.Todos)
   {
     <li>
       <input type="checkbox" @bind="todo.IsDone" />
@@ -24,7 +26,9 @@
   {
     if(!string.IsNullOrWhiteSpace(newTodo))
     {
-      todos.Add(new TodoItem { Title = newTodo });
+      dispatcher.Dispatch(new AddTodoItemAction(newTodo));
+  //    todos.Add(new TodoItem { Title = newTodo });
+
       newTodo = string.Empty;
     }
   }

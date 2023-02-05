@@ -2,6 +2,44 @@
   "version": 3,
   "targets": {
     "net7.0": {
+      "Fluxor/5.7.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
+        },
+        "compile": {
+          "lib/net7.0/Fluxor.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Fluxor.dll": {}
+        }
+      },
+      "Fluxor.Blazor.Web/5.7.0": {
+        "type": "package",
+        "dependencies": {
+          "Fluxor": "5.7.0",
+          "Microsoft.AspNetCore.Components.Web": "7.0.0"
+        },
+        "compile": {
+          "lib/net7.0/Fluxor.Blazor.Web.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Fluxor.Blazor.Web.dll": {}
+        }
+      },
+      "Fluxor.Blazor.Web.ReduxDevTools/5.7.0": {
+        "type": "package",
+        "dependencies": {
+          "Fluxor.Blazor.Web": "5.7.0",
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "lib/net7.0/Fluxor.Blazor.Web.ReduxDevTools.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Fluxor.Blazor.Web.ReduxDevTools.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Authorization/7.0.2": {
         "type": "package",
         "dependencies": {
@@ -415,6 +453,19 @@
         },
         "runtime": {
           "lib/net7.0/Microsoft.JSInterop.WebAssembly.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
             "related": ".xml"
           }
         }
@@ -478,6 +529,44 @@
       }
     },
     "net7.0/browser-wasm": {
+      "Fluxor/5.7.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
+        },
+        "compile": {
+          "lib/net7.0/Fluxor.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Fluxor.dll": {}
+        }
+      },
+      "Fluxor.Blazor.Web/5.7.0": {
+        "type": "package",
+        "dependencies": {
+          "Fluxor": "5.7.0",
+          "Microsoft.AspNetCore.Components.Web": "7.0.0"
+        },
+        "compile": {
+          "lib/net7.0/Fluxor.Blazor.Web.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Fluxor.Blazor.Web.dll": {}
+        }
+      },
+      "Fluxor.Blazor.Web.ReduxDevTools/5.7.0": {
+        "type": "package",
+        "dependencies": {
+          "Fluxor.Blazor.Web": "5.7.0",
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "lib/net7.0/Fluxor.Blazor.Web.ReduxDevTools.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Fluxor.Blazor.Web.ReduxDevTools.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Authorization/7.0.2": {
         "type": "package",
         "dependencies": {
@@ -895,6 +984,19 @@
           }
         }
       },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.IO.Pipelines/7.0.0": {
         "type": "package",
         "compile": {
@@ -949,6 +1051,60 @@
     }
   },
   "libraries": {
+    "Fluxor/5.7.0": {
+      "sha512": "zA7kyc8G0E+vCeu8uQRZzOFj/deWt1AGpGBTHDqS1+NSyGT611CRH0b4mWJmCf4N60KT+7/ycZOOF1rYLacPtQ==",
+      "type": "package",
+      "path": "fluxor/5.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fluxor-small-logo.png",
+        "fluxor.5.7.0.nupkg.sha512",
+        "fluxor.nuspec",
+        "lib/net5.0/Fluxor.dll",
+        "lib/net6.0/Fluxor.dll",
+        "lib/net7.0/Fluxor.dll",
+        "lib/netcoreapp3.1/Fluxor.dll",
+        "lib/netstandard2.0/Fluxor.dll",
+        "lib/netstandard2.1/Fluxor.dll"
+      ]
+    },
+    "Fluxor.Blazor.Web/5.7.0": {
+      "sha512": "bZPUXNtGNLSNNGMqBOFd0t4e4l3LH7jyra63xPYXI++ehbVg9343u9v9Mr+K8GjkvkxxFnGPzQX6I0CCHyk+cg==",
+      "type": "package",
+      "path": "fluxor.blazor.web/5.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fluxor-blazor-logo-small.png",
+        "fluxor.blazor.web.5.7.0.nupkg.sha512",
+        "fluxor.blazor.web.nuspec",
+        "lib/net5.0/Fluxor.Blazor.Web.dll",
+        "lib/net6.0/Fluxor.Blazor.Web.dll",
+        "lib/net7.0/Fluxor.Blazor.Web.dll",
+        "lib/netcoreapp3.1/Fluxor.Blazor.Web.dll",
+        "lib/netstandard2.0/Fluxor.Blazor.Web.dll",
+        "lib/netstandard2.1/Fluxor.Blazor.Web.dll"
+      ]
+    },
+    "Fluxor.Blazor.Web.ReduxDevTools/5.7.0": {
+      "sha512": "K49KcrqsfIFklgfAHtrDa1UydIa1JQPjJ/HKusvQlqn3O4Sl/ywzBjezVxcoInRvDvNVarpvB7xFViZFHIybWA==",
+      "type": "package",
+      "path": "fluxor.blazor.web.reduxdevtools/5.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fluxor-blazor-reduxdevtools-small.png",
+        "fluxor.blazor.web.reduxdevtools.5.7.0.nupkg.sha512",
+        "fluxor.blazor.web.reduxdevtools.nuspec",
+        "lib/net5.0/Fluxor.Blazor.Web.ReduxDevTools.dll",
+        "lib/net6.0/Fluxor.Blazor.Web.ReduxDevTools.dll",
+        "lib/net7.0/Fluxor.Blazor.Web.ReduxDevTools.dll",
+        "lib/netcoreapp3.1/Fluxor.Blazor.Web.ReduxDevTools.dll",
+        "lib/netstandard2.0/Fluxor.Blazor.Web.ReduxDevTools.dll",
+        "lib/netstandard2.1/Fluxor.Blazor.Web.ReduxDevTools.dll"
+      ]
+    },
     "Microsoft.AspNetCore.Authorization/7.0.2": {
       "sha512": "ukMX3a48GkpxeWHHeNby5kUQgsiedPVUMX1nBgswBciWczzM2G1WpRuqu2HTEaFFkMIPPhkA0pRL30d5upTTIw==",
       "type": "package",
@@ -1664,6 +1820,33 @@
         "microsoft.jsinterop.webassembly.nuspec"
       ]
     },
+    "Newtonsoft.Json/13.0.1": {
+      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
     "System.IO.Pipelines/7.0.0": {
       "sha512": "jRn6JYnNPW6xgQazROBLSfpdoczRw694vO5kKvMcNnpXuolEixUyw6IBuBs2Y2mlSX/LdLvyyWmfXhaI3ND1Yg==",
       "type": "package",
@@ -1796,6 +1979,9 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Fluxor >= 5.7.0",
+      "Fluxor.Blazor.Web >= 5.7.0",
+      "Fluxor.Blazor.Web.ReduxDevTools >= 5.7.0",
       "Microsoft.AspNetCore.Components.WebAssembly >= 7.0.2",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 7.0.2"
     ]
@@ -1837,6 +2023,18 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "Fluxor": {
+            "target": "Package",
+            "version": "[5.7.0, )"
+          },
+          "Fluxor.Blazor.Web": {
+            "target": "Package",
+            "version": "[5.7.0, )"
+          },
+          "Fluxor.Blazor.Web.ReduxDevTools": {
+            "target": "Package",
+            "version": "[5.7.0, )"
+          },
           "Microsoft.AspNetCore.Components.WebAssembly": {
             "target": "Package",
             "version": "[7.0.2, )"

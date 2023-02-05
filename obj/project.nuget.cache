@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "OlXpf3tPF3PfUugiL0V+GNxjh/4gv9++eUGJ2tef6qGqnCkVD/NtH6iDGoRR4cQzdDFjQjCwAytxKHq92ONlsw==",
+  "dgSpecHash": "8hlnMsyaTL6S0gY4aV6UclFa8oqqdy1v9oRRTQ2pmC4YxruqUqUx38J9ykqH6Mbj9NF7HKpXKjiPT/IadyhjUw==",
   "success": true,
   "projectFilePath": "/home/helder/H2SDIGITAL/learning/TodoList/TodoList.csproj",
   "expectedPackageFiles": [
+    "/home/helder/.nuget/packages/fluxor/5.7.0/fluxor.5.7.0.nupkg.sha512",
+    "/home/helder/.nuget/packages/fluxor.blazor.web/5.7.0/fluxor.blazor.web.5.7.0.nupkg.sha512",
+    "/home/helder/.nuget/packages/fluxor.blazor.web.reduxdevtools/5.7.0/fluxor.blazor.web.reduxdevtools.5.7.0.nupkg.sha512",
     "/home/helder/.nuget/packages/microsoft.aspnetcore.authorization/7.0.2/microsoft.aspnetcore.authorization.7.0.2.nupkg.sha512",
     "/home/helder/.nuget/packages/microsoft.aspnetcore.components/7.0.2/microsoft.aspnetcore.components.7.0.2.nupkg.sha512",
     "/home/helder/.nuget/packages/microsoft.aspnetcore.components.analyzers/7.0.2/microsoft.aspnetcore.components.analyzers.7.0.2.nupkg.sha512",
@@ -28,11 +31,12 @@
     "/home/helder/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "/home/helder/.nuget/packages/microsoft.jsinterop/7.0.2/microsoft.jsinterop.7.0.2.nupkg.sha512",
     "/home/helder/.nuget/packages/microsoft.jsinterop.webassembly/7.0.2/microsoft.jsinterop.webassembly.7.0.2.nupkg.sha512",
+    "/home/helder/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
     "/home/helder/.nuget/packages/system.io.pipelines/7.0.0/system.io.pipelines.7.0.0.nupkg.sha512",
     "/home/helder/.nuget/packages/system.text.encodings.web/7.0.0/system.text.encodings.web.7.0.0.nupkg.sha512",
     "/home/helder/.nuget/packages/system.text.json/7.0.0/system.text.json.7.0.0.nupkg.sha512",
-    "/home/helder/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/7.0.2/microsoft.netcore.app.runtime.mono.browser-wasm.7.0.2.nupkg.sha512",
-    "/home/helder/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.2/microsoft.aspnetcore.app.ref.7.0.2.nupkg.sha512"
+    "/home/helder/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.2/microsoft.aspnetcore.app.ref.7.0.2.nupkg.sha512",
+    "/home/helder/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/7.0.2/microsoft.netcore.app.runtime.mono.browser-wasm.7.0.2.nupkg.sha512"
   ],
   "logs": []
 }
